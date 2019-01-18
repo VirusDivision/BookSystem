@@ -13,7 +13,7 @@ public class LoginController {
 
     @RequestMapping(value="/Sends",method= RequestMethod.GET,produces= "application/text")
     @ResponseBody
-    public String send(@RequestParam(value = "text") String code) {
+    public String send(@RequestParam(value = "code") String code) {
 
         System.out.println(code);
 

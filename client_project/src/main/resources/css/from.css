@@ -1,0 +1,55 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+.form-signin {
+    max-width: 300px;
+    padding: 19px 29px 29px;
+    margin: 0 auto 20px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    margin-top: -350px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    left: 20px;
+    margin-bottom: 5px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+.btn-group{
+    margin-top: -65px;
+    margin-left: 165px;
+}
+
+.p1 {
+    margin: 100px 0 0 100px;
+    width: 200px;
+    height: 200px;
+    /*background-color: orange;*/
+
+    color: #fff;
+}
+
+.p1:hover {
+    /*文本阴影*/
+    text-shadow:
+            0 0 30px #CCCCCC,
+            0 0 30px #fff,
+            0 0 80px #CCCCCC,
+            0 0 80px #fff,
+            0 0 180px #CCCCCC,
+            0 0 80px #fff;
+    transition: 2s;
+}

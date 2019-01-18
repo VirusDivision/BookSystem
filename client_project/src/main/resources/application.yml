@@ -13,4 +13,4 @@ spring:
       prefix: /
       suffix: .html
   resources:
-    static-locations: classpath:templates,classpath:css,classpath:js,classpath:image
+    static-locations: classpath:templates,classpath:css,classpath:js,classpath:image,classpath:fonts,
